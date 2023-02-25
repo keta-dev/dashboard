@@ -1,12 +1,38 @@
 # Getting Started with Create React App
+#### Run The App Locally
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```sh
+npm run install && npm start
+```
 
-## Available Scripts
+- visit url http://localhost:3000/
 
-In the project directory, you can run:
+#### Setup React App
 
-### `npm start`
+```sh
+
+npx create-react-app myApp
+
+```
+
+```sh
+
+npx create-react-app@latest myApp
+
+```
+
+- set editor/browser side by side
+- copy/paste assets and readme from complete project
+
+#### 1) Spring Cleaning
+
+- in src remove
+- App.css
+- App.test.js
+- logo.svg
+- reportWebVitals.js
+- setupTests.js
+- fix App.js and index.js
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
